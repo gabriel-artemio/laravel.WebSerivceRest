@@ -39,6 +39,11 @@
             this.fINANCEIROToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cONTASAPAGARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cONTASARECEBERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rELATÓRIOSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fINANCEIROToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cONTASAPAGARToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cONTASARECEBERToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.fUNCIONÁRIOSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +52,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cADASTROToolStripMenuItem,
             this.cÁLCULOSToolStripMenuItem,
-            this.fINANCEIROToolStripMenuItem});
+            this.fINANCEIROToolStripMenuItem,
+            this.rELATÓRIOSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -65,7 +71,7 @@
             // fUNCIONÁRIOSToolStripMenuItem
             // 
             this.fUNCIONÁRIOSToolStripMenuItem.Name = "fUNCIONÁRIOSToolStripMenuItem";
-            this.fUNCIONÁRIOSToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.fUNCIONÁRIOSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.fUNCIONÁRIOSToolStripMenuItem.Text = "FUNCIONÁRIOS";
             // 
             // cÁLCULOSToolStripMenuItem
@@ -82,26 +88,26 @@
             // dÉCIMOTERCEIROToolStripMenuItem
             // 
             this.dÉCIMOTERCEIROToolStripMenuItem.Name = "dÉCIMOTERCEIROToolStripMenuItem";
-            this.dÉCIMOTERCEIROToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dÉCIMOTERCEIROToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.dÉCIMOTERCEIROToolStripMenuItem.Text = "DÉCIMO TERCEIRO";
             this.dÉCIMOTERCEIROToolStripMenuItem.Click += new System.EventHandler(this.dÉCIMOTERCEIROToolStripMenuItem_Click);
             // 
             // fÉRIASToolStripMenuItem
             // 
             this.fÉRIASToolStripMenuItem.Name = "fÉRIASToolStripMenuItem";
-            this.fÉRIASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fÉRIASToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.fÉRIASToolStripMenuItem.Text = "FÉRIAS";
             // 
             // hORAEXTRAToolStripMenuItem
             // 
             this.hORAEXTRAToolStripMenuItem.Name = "hORAEXTRAToolStripMenuItem";
-            this.hORAEXTRAToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hORAEXTRAToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.hORAEXTRAToolStripMenuItem.Text = "HORA EXTRA";
             // 
             // vALETRANSPORTEToolStripMenuItem
             // 
             this.vALETRANSPORTEToolStripMenuItem.Name = "vALETRANSPORTEToolStripMenuItem";
-            this.vALETRANSPORTEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vALETRANSPORTEToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.vALETRANSPORTEToolStripMenuItem.Text = "VALE TRANSPORTE";
             // 
             // fINANCEIROToolStripMenuItem
@@ -124,6 +130,42 @@
             this.cONTASARECEBERToolStripMenuItem.Name = "cONTASARECEBERToolStripMenuItem";
             this.cONTASARECEBERToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cONTASARECEBERToolStripMenuItem.Text = "CONTAS A RECEBER";
+            // 
+            // rELATÓRIOSToolStripMenuItem
+            // 
+            this.rELATÓRIOSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fINANCEIROToolStripMenuItem1,
+            this.fUNCIONÁRIOSToolStripMenuItem1});
+            this.rELATÓRIOSToolStripMenuItem.Name = "rELATÓRIOSToolStripMenuItem";
+            this.rELATÓRIOSToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.rELATÓRIOSToolStripMenuItem.Text = "RELATÓRIOS";
+            // 
+            // fINANCEIROToolStripMenuItem1
+            // 
+            this.fINANCEIROToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cONTASAPAGARToolStripMenuItem1,
+            this.cONTASARECEBERToolStripMenuItem1});
+            this.fINANCEIROToolStripMenuItem1.Name = "fINANCEIROToolStripMenuItem1";
+            this.fINANCEIROToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.fINANCEIROToolStripMenuItem1.Text = "FINANCEIRO";
+            // 
+            // cONTASAPAGARToolStripMenuItem1
+            // 
+            this.cONTASAPAGARToolStripMenuItem1.Name = "cONTASAPAGARToolStripMenuItem1";
+            this.cONTASAPAGARToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.cONTASAPAGARToolStripMenuItem1.Text = "CONTAS A PAGAR";
+            // 
+            // cONTASARECEBERToolStripMenuItem1
+            // 
+            this.cONTASARECEBERToolStripMenuItem1.Name = "cONTASARECEBERToolStripMenuItem1";
+            this.cONTASARECEBERToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.cONTASARECEBERToolStripMenuItem1.Text = "CONTAS A RECEBER";
+            // 
+            // fUNCIONÁRIOSToolStripMenuItem1
+            // 
+            this.fUNCIONÁRIOSToolStripMenuItem1.Name = "fUNCIONÁRIOSToolStripMenuItem1";
+            this.fUNCIONÁRIOSToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.fUNCIONÁRIOSToolStripMenuItem1.Text = "FUNCIONÁRIOS";
             // 
             // MenuInicial
             // 
@@ -155,5 +197,10 @@
         private ToolStripMenuItem fINANCEIROToolStripMenuItem;
         private ToolStripMenuItem cONTASAPAGARToolStripMenuItem;
         private ToolStripMenuItem cONTASARECEBERToolStripMenuItem;
+        private ToolStripMenuItem rELATÓRIOSToolStripMenuItem;
+        private ToolStripMenuItem fINANCEIROToolStripMenuItem1;
+        private ToolStripMenuItem cONTASAPAGARToolStripMenuItem1;
+        private ToolStripMenuItem cONTASARECEBERToolStripMenuItem1;
+        private ToolStripMenuItem fUNCIONÁRIOSToolStripMenuItem1;
     }
 }
