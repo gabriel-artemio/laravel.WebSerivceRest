@@ -9,22 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Cadastros\CadCargo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Cadastros\CadTarifa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Relatorios\RelFuncionario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Relatorios\RelContasReceber.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Imagens\" />
+    <Folder Include="Relatorios\" />
   </ItemGroup>
 
 </Project>
