@@ -1,19 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Formularios\CalculoFerias.cs">
+    <Compile Update="Cadastros\CadFuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\CalculoHoraExtra.cs">
+    <Compile Update="Calculos\CalculoFerias.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\CalculoValeTransporte.cs">
+    <Compile Update="Calculos\CalculoHoraExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calculos\CalculoValeTransporte.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MenuInicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\CalculoDecimo.cs">
+    <Compile Update="Calculos\CalculoDecimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Relatorios\RelContasPagar.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

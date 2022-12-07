@@ -44,6 +44,14 @@
             this.cONTASAPAGARToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.cONTASARECEBERToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.fUNCIONÁRIOSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.fINANCEIROToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cENTRODECUSTOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tARIFASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cATEGORIAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cARGOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fORNECEDORToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cONTROLECOVIDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dOSESToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +60,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cADASTROToolStripMenuItem,
             this.cÁLCULOSToolStripMenuItem,
+            this.cONTROLECOVIDToolStripMenuItem,
             this.fINANCEIROToolStripMenuItem,
             this.rELATÓRIOSToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -63,7 +72,8 @@
             // cADASTROToolStripMenuItem
             // 
             this.cADASTROToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fUNCIONÁRIOSToolStripMenuItem});
+            this.fUNCIONÁRIOSToolStripMenuItem,
+            this.fINANCEIROToolStripMenuItem2});
             this.cADASTROToolStripMenuItem.Name = "cADASTROToolStripMenuItem";
             this.cADASTROToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.cADASTROToolStripMenuItem.Text = "CADASTRO";
@@ -72,7 +82,7 @@
             // 
             this.fUNCIONÁRIOSToolStripMenuItem.Name = "fUNCIONÁRIOSToolStripMenuItem";
             this.fUNCIONÁRIOSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fUNCIONÁRIOSToolStripMenuItem.Text = "FUNCIONÁRIOS";
+            this.fUNCIONÁRIOSToolStripMenuItem.Text = "FUNCIONÁRIO";
             // 
             // cÁLCULOSToolStripMenuItem
             // 
@@ -146,7 +156,7 @@
             this.cONTASAPAGARToolStripMenuItem1,
             this.cONTASARECEBERToolStripMenuItem1});
             this.fINANCEIROToolStripMenuItem1.Name = "fINANCEIROToolStripMenuItem1";
-            this.fINANCEIROToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.fINANCEIROToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.fINANCEIROToolStripMenuItem1.Text = "FINANCEIRO";
             // 
             // cONTASAPAGARToolStripMenuItem1
@@ -164,14 +174,70 @@
             // fUNCIONÁRIOSToolStripMenuItem1
             // 
             this.fUNCIONÁRIOSToolStripMenuItem1.Name = "fUNCIONÁRIOSToolStripMenuItem1";
-            this.fUNCIONÁRIOSToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.fUNCIONÁRIOSToolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
             this.fUNCIONÁRIOSToolStripMenuItem1.Text = "FUNCIONÁRIOS";
+            // 
+            // fINANCEIROToolStripMenuItem2
+            // 
+            this.fINANCEIROToolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cARGOToolStripMenuItem,
+            this.cATEGORIAToolStripMenuItem,
+            this.cENTRODECUSTOToolStripMenuItem,
+            this.fORNECEDORToolStripMenuItem,
+            this.tARIFASToolStripMenuItem});
+            this.fINANCEIROToolStripMenuItem2.Name = "fINANCEIROToolStripMenuItem2";
+            this.fINANCEIROToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.fINANCEIROToolStripMenuItem2.Text = "FINANCEIRO";
+            // 
+            // cENTRODECUSTOToolStripMenuItem
+            // 
+            this.cENTRODECUSTOToolStripMenuItem.Name = "cENTRODECUSTOToolStripMenuItem";
+            this.cENTRODECUSTOToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cENTRODECUSTOToolStripMenuItem.Text = "CENTRO DE CUSTO";
+            // 
+            // tARIFASToolStripMenuItem
+            // 
+            this.tARIFASToolStripMenuItem.Name = "tARIFASToolStripMenuItem";
+            this.tARIFASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tARIFASToolStripMenuItem.Text = "TARIFA";
+            // 
+            // cATEGORIAToolStripMenuItem
+            // 
+            this.cATEGORIAToolStripMenuItem.Name = "cATEGORIAToolStripMenuItem";
+            this.cATEGORIAToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cATEGORIAToolStripMenuItem.Text = "CATEGORIA";
+            // 
+            // cARGOToolStripMenuItem
+            // 
+            this.cARGOToolStripMenuItem.Name = "cARGOToolStripMenuItem";
+            this.cARGOToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.cARGOToolStripMenuItem.Text = "CARGO";
+            // 
+            // fORNECEDORToolStripMenuItem
+            // 
+            this.fORNECEDORToolStripMenuItem.Name = "fORNECEDORToolStripMenuItem";
+            this.fORNECEDORToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fORNECEDORToolStripMenuItem.Text = "FORNECEDOR";
+            // 
+            // cONTROLECOVIDToolStripMenuItem
+            // 
+            this.cONTROLECOVIDToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dOSESToolStripMenuItem});
+            this.cONTROLECOVIDToolStripMenuItem.Name = "cONTROLECOVIDToolStripMenuItem";
+            this.cONTROLECOVIDToolStripMenuItem.Size = new System.Drawing.Size(117, 20);
+            this.cONTROLECOVIDToolStripMenuItem.Text = "CONTROLE COVID";
+            // 
+            // dOSESToolStripMenuItem
+            // 
+            this.dOSESToolStripMenuItem.Name = "dOSESToolStripMenuItem";
+            this.dOSESToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dOSESToolStripMenuItem.Text = "DOSES";
             // 
             // MenuInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 409);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MenuInicial";
@@ -202,5 +268,13 @@
         private ToolStripMenuItem cONTASAPAGARToolStripMenuItem1;
         private ToolStripMenuItem cONTASARECEBERToolStripMenuItem1;
         private ToolStripMenuItem fUNCIONÁRIOSToolStripMenuItem1;
+        private ToolStripMenuItem fINANCEIROToolStripMenuItem2;
+        private ToolStripMenuItem cARGOToolStripMenuItem;
+        private ToolStripMenuItem cATEGORIAToolStripMenuItem;
+        private ToolStripMenuItem cENTRODECUSTOToolStripMenuItem;
+        private ToolStripMenuItem tARIFASToolStripMenuItem;
+        private ToolStripMenuItem fORNECEDORToolStripMenuItem;
+        private ToolStripMenuItem cONTROLECOVIDToolStripMenuItem;
+        private ToolStripMenuItem dOSESToolStripMenuItem;
     }
 }
