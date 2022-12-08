@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Calculo\CalcDecimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calculo\CalcExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calculo\CalcFerias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Calculo\CalcVt.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>

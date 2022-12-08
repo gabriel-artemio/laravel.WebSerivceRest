@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <Folder Include="Cadastro\" />
-    <Folder Include="Calculo\" />
     <Folder Include="Relatorio\" />
   </ItemGroup>
 

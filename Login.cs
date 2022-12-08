@@ -1,7 +1,6 @@
 using AfSistemas.Gestao.Forms;
 using MySql.Data.MySqlClient;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace AfSistemas.Gestao
 {
@@ -15,7 +14,7 @@ namespace AfSistemas.Gestao
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string cs = @"server=localhost;userid=root;password=;database=teste";
+            string cs = @"server=localhost;userid=root;password=arlabs2022;database=teste";
             var con = new MySqlConnection(cs);
             try
             {
@@ -45,13 +44,13 @@ namespace AfSistemas.Gestao
                         }
                         else
                         {
-                            MessageBox.Show("LOGIN INCORRETO");
+                            MessageBox.Show("Login incorreto", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         }
                     }
                 }
                 else
                 {
-                    MessageBox.Show("INSIRA OS DADOS DE LOGIN");
+                    MessageBox.Show("Preencha todos os campos", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)

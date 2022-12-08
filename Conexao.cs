@@ -14,7 +14,7 @@ namespace AfSistemas.Gestao
         public MySqlConnection con;
         public Conexao()
         {
-            con = new MySqlConnection(ConfigurationManager.ConnectionStrings["CC"].ConnectionString);
+            //con = new MySqlConnection(ConfigurationManager.ConnectionStrings["CC"].ConnectionString);
         }
         public static string? tipo;
     }
