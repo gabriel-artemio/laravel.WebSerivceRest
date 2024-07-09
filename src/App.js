@@ -20,7 +20,7 @@ function App() {
   const handleDataChange = (event) => {
     const selectedDate = new Date(event.target.value);
     const today = new Date();
-    today.setHours(0, 0, 0, 0); // remove time part for comparison
+    today.setHours(0, 0, 0, 0);
     if (selectedDate < today) {
       setDataInvalida(true);
     } else {
@@ -31,8 +31,8 @@ function App() {
 
   return (
     <div className="App container">
-      <h1>SalaoWeb</h1>
-      <p>Aplicação para agendamento de horários</p>
+      <h1 class="fw-light">SalãoWeb</h1>
+      <p class="lead text-muted">Agende seu horário no salão com rapidez e praticidade.</p>
       <form>
         <div className="form-group">
           <label htmlFor="servicos">Escolha o serviço:</label>
